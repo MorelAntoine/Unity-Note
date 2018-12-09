@@ -14,15 +14,23 @@ namespace UniCraft.Note.Editor
 		/////////////////////////////////////
 		////////// Default setting //////////
 
-		private const string AuthorLabel = "Made by:";
+		////////// Dimension //////////
+		
 		private const float AuthorLabelWidth = 60f;
 		private const float AuthorFieldWidth = 100f;
-		private const float ColorFieldWidth = 16f;
+		private const float ColorFieldWidth = 16f;		
 		private const float ContentHeight = 150f;
+		private const float TitleFieldWidth = 160f;
+		
+		////////// Label //////////
+		
+		private const string AuthorLabel = "Made by:";
 		private const string ContentLabel = "Content";
+		
+		////////// Value //////////
+		
 		private const float ContentSpaceOffset = -10f;
 		private const float SpaceBetweenField = 6f;
-		private const float TitleFieldWidth = 160f;
 
 		//////////////////////////////////
 		////////// GUI resource //////////
